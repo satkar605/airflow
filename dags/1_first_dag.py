@@ -15,7 +15,7 @@ def first_dag():
 
     @task.python
     def third_task():
-        print("This is the third task")
+        print("This is the third task. DAG Completed!")
 
     # Defining task dependencies
     first = first_task()
